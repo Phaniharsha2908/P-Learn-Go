@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1104d75c-e175-4d13-8347-fedd4f9f4e3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops/for.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops/loop1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops/scanln.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops/switch.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,99 +44,104 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build P-Learn-Go/loops (3)">
-    <configuration name="go build P-Learn-Go/003-IfElse" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\P-Learn-Go\002-Variables-basics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build P-Learn-Go/006-arrays (3)">
+    <configuration name="go build P-Learn-Go/006-arrays (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="P-Learn-Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/006-arrays/array-shorthand.go" />
+      <package value="P-Learn-Go/006-arrays" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build P-Learn-Go/006-arrays (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="P-Learn-Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/006-arrays/compare-arrays.go" />
+      <package value="P-Learn-Go/006-arrays" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build P-Learn-Go/006-arrays (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="P-Learn-Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/006-arrays/range.go" />
+      <package value="P-Learn-Go/006-arrays" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build P-Learn-Go/006-arrays" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="P-Learn-Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/006-arrays/array.go" />
+      <package value="P-Learn-Go/006-arrays" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build P-Learn-Go/arrays" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="P-Learn-Go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/003-IfElse/basic.go" />
-      <package value="P-Learn-Go/003-IfElse" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build P-Learn-Go/loops (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="P-Learn-Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/loops/loop1.go" />
-      <package value="P-Learn-Go/loops" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build P-Learn-Go/loops (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="P-Learn-Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/loops/scanln.go" />
-      <package value="P-Learn-Go/loops" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build P-Learn-Go/loops (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="P-Learn-Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/loops/switch.go" />
-      <package value="P-Learn-Go/loops" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build P-Learn-Go/loops" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="P-Learn-Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/loops/for.go" />
-      <package value="P-Learn-Go/loops" />
+      <filePath value="$PROJECT_DIR$/arrays/array.go" />
+      <package value="P-Learn-Go/arrays" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build P-Learn-Go/loops (3)" />
-        <item itemvalue="Go Build.go build P-Learn-Go/loops (2)" />
-        <item itemvalue="Go Build.go build P-Learn-Go/loops (1)" />
-        <item itemvalue="Go Build.go build P-Learn-Go/loops" />
-        <item itemvalue="Go Build.go build P-Learn-Go/003-IfElse" />
+        <item itemvalue="Go Build.go build P-Learn-Go/006-arrays (3)" />
+        <item itemvalue="Go Build.go build P-Learn-Go/006-arrays (2)" />
+        <item itemvalue="Go Build.go build P-Learn-Go/006-arrays (1)" />
+        <item itemvalue="Go Build.go build P-Learn-Go/006-arrays" />
+        <item itemvalue="Go Build.go build P-Learn-Go/arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -144,25 +153,25 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1598589555859">
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1598850457595">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1598589555859" />
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1598850457595" />
     <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
-    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1598589555859">
+    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1598850457595">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1598589555859" />
+    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1598850457595" />
     <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
-    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1598589555859">
+    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1598850457594">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1598589555859" />
+    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1598850457594" />
     <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
-    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1598589555859">
+    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1598850457595">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1598589555859" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1598850457595" />
     <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
     <state width="1237" height="207" key="GridCell.Tab.1.bottom" timestamp="1598588587960">
       <screen x="0" y="0" width="1280" height="688" />
