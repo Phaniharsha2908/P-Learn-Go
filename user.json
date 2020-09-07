@@ -1,0 +1,17 @@
+[
+	{
+		"first_name": "Diwakar",
+		"perms": {
+			"admin": true
+		}
+	},
+	{
+		"first_name": "Rahul"
+	},
+	{
+		"first_name": "Ravi",
+		"perms": {
+			"write": false
+		}
+	}
+]
