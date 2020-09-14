@@ -45,8 +45,8 @@
       <recent name="D:\P-Learn-Go\002-Variables-basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build P-Learn-Go/012-Methods (1)">
-    <configuration name="go build P-Learn-Go/0011-Functions (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build P-Learn-Go/0013-Error-Handling (4)">
+    <configuration name="go build P-Learn-Go/0013-Error-Handling (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="P-Learn-Go" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -60,12 +60,12 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/0011-Functions/variadic-func.go" />
-      <package value="P-Learn-Go/0011-Functions" />
+      <filePath value="$PROJECT_DIR$/0013-Error-Handling/erros-package.go" />
+      <package value="P-Learn-Go/0013-Error-Handling" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build P-Learn-Go/0011-Functions (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build P-Learn-Go/0013-Error-Handling (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="P-Learn-Go" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -79,12 +79,12 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/0011-Functions/defer.go" />
-      <package value="P-Learn-Go/0011-Functions" />
+      <filePath value="$PROJECT_DIR$/0013-Error-Handling/fmt.errorf.go" />
+      <package value="P-Learn-Go/0013-Error-Handling" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build P-Learn-Go/0011-Functions (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build P-Learn-Go/0013-Error-Handling (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="P-Learn-Go" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -98,12 +98,12 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/0011-Functions/defer-panic.go" />
-      <package value="P-Learn-Go/0011-Functions" />
+      <filePath value="$PROJECT_DIR$/0013-Error-Handling/wrapping.go" />
+      <package value="P-Learn-Go/0013-Error-Handling" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build P-Learn-Go/012-Methods (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build P-Learn-Go/0013-Error-Handling (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="P-Learn-Go" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -117,12 +117,12 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/012-Methods/methods-new.go" />
-      <package value="P-Learn-Go/012-Methods" />
+      <filePath value="$PROJECT_DIR$/0013-Error-Handling/unwrap.go" />
+      <package value="P-Learn-Go/0013-Error-Handling" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build P-Learn-Go/012-Methods" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build P-Learn-Go/0013-Error-Handling" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="P-Learn-Go" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -136,18 +136,18 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/012-Methods/methods.go" />
-      <package value="P-Learn-Go/012-Methods" />
+      <filePath value="$PROJECT_DIR$/0013-Error-Handling/basic-err.go" />
+      <package value="P-Learn-Go/0013-Error-Handling" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build P-Learn-Go/012-Methods (1)" />
-        <item itemvalue="Go Build.go build P-Learn-Go/012-Methods" />
-        <item itemvalue="Go Build.go build P-Learn-Go/0011-Functions (4)" />
-        <item itemvalue="Go Build.go build P-Learn-Go/0011-Functions (3)" />
-        <item itemvalue="Go Build.go build P-Learn-Go/0011-Functions (2)" />
+        <item itemvalue="Go Build.go build P-Learn-Go/0013-Error-Handling (4)" />
+        <item itemvalue="Go Build.go build P-Learn-Go/0013-Error-Handling (3)" />
+        <item itemvalue="Go Build.go build P-Learn-Go/0013-Error-Handling (2)" />
+        <item itemvalue="Go Build.go build P-Learn-Go/0013-Error-Handling (1)" />
+        <item itemvalue="Go Build.go build P-Learn-Go/0013-Error-Handling" />
       </list>
     </recent_temporary>
   </component>
@@ -159,29 +159,29 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="215" key="GridCell.Tab.0.bottom" timestamp="1599714788873">
+    <state width="1237" height="215" key="GridCell.Tab.0.bottom" timestamp="1600060913186">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="215" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1599714788873" />
-    <state width="1237" height="195" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1599122374368" />
+    <state width="1237" height="215" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1600060913186" />
+    <state width="1237" height="215" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1599716538019" />
     <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
-    <state width="1237" height="215" key="GridCell.Tab.0.center" timestamp="1599714788873">
+    <state width="1237" height="215" key="GridCell.Tab.0.center" timestamp="1600060913186">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="215" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1599714788873" />
-    <state width="1237" height="195" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1599122374368" />
+    <state width="1237" height="215" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1600060913186" />
+    <state width="1237" height="215" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1599716538019" />
     <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
-    <state width="1237" height="215" key="GridCell.Tab.0.left" timestamp="1599714788872">
+    <state width="1237" height="215" key="GridCell.Tab.0.left" timestamp="1600060913186">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="215" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1599714788872" />
-    <state width="1237" height="195" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1599122374368" />
+    <state width="1237" height="215" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1600060913186" />
+    <state width="1237" height="215" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1599716538019" />
     <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
-    <state width="1237" height="215" key="GridCell.Tab.0.right" timestamp="1599714788873">
+    <state width="1237" height="215" key="GridCell.Tab.0.right" timestamp="1600060913186">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="215" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1599714788873" />
-    <state width="1237" height="195" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1599122374368" />
+    <state width="1237" height="215" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1600060913186" />
+    <state width="1237" height="215" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1599716538019" />
     <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
     <state width="1237" height="207" key="GridCell.Tab.1.bottom" timestamp="1599625878631">
       <screen x="0" y="0" width="1280" height="688" />
