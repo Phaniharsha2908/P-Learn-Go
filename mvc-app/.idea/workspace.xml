@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="294f6628-1f37-47d0-9b49-1a1bfb9b9f8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../009-structure/custom-complex-type.go" beforeDir="false" afterPath="$PROJECT_DIR$/../009-structure/custom-complex-type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestUserNotFound in mvc-app/model">
     <configuration name="go build mvc-app" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="mvc-app" />
       <working_directory value="$PROJECT_DIR$" />
@@ -52,8 +52,20 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestUserNotFound in mvc-app/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mvc-app" />
+      <working_directory value="$PROJECT_DIR$/model" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="mvc-app/model" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestUserNotFound\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestUserNotFound in mvc-app/model" />
         <item itemvalue="Go Build.go build mvc-app" />
       </list>
     </recent_temporary>
@@ -66,21 +78,21 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1601270242019">
+    <state width="1237" height="497" key="GridCell.Tab.0.bottom" timestamp="1601354118964">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601270242019" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1601270242019">
+    <state width="1237" height="497" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601354118964" />
+    <state width="1237" height="497" key="GridCell.Tab.0.center" timestamp="1601354118964">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601270242019" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1601270242019">
+    <state width="1237" height="497" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601354118964" />
+    <state width="1237" height="497" key="GridCell.Tab.0.left" timestamp="1601354118963">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601270242019" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1601270242019">
+    <state width="1237" height="497" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601354118963" />
+    <state width="1237" height="497" key="GridCell.Tab.0.right" timestamp="1601354118964">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601270242019" />
+    <state width="1237" height="497" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601354118964" />
   </component>
 </project>
