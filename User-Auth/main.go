@@ -22,7 +22,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	//us.DestructiveReset()
+	us.DestructiveReset()
 	//us.AutoMigrate()
 
 	userC:= controllers.NewUsers(us)

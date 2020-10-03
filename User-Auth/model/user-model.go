@@ -9,9 +9,11 @@ import (
 	"log"
 	"os"
 	"time"
+	"user-auth/hash"
 )
 
 const userPwPepper = "secret-random-string"
+const hmacSecretKey = "secret-hmac-key"
 
 var (
 	ErrNotFound        = errors.New("model: resource not found")
@@ -19,7 +21,8 @@ var (
 )
 
 type UserService struct {
-	db *gorm.DB
+	db   *gorm.DB
+	hmac hash.HMAC
 }
 
 func NewUserService(connectionInfo string) (*UserService, error) {
@@ -38,7 +41,12 @@ func NewUserService(connectionInfo string) (*UserService, error) {
 		return nil, err
 	}
 
-	return &UserService{db: db}, nil
+	hmac := hash.NewHMAC(hmacSecretKey)
+
+	return &UserService{
+		db:   db,
+		hmac: hmac,
+	}, nil
 
 }
 
@@ -115,4 +123,14 @@ func (us *UserService) AutoMigrate() error {
 		return err
 	}
 	return nil
+}
+
+func (us *UserService) Update(user *User) error {
+
+	if user.Remember != "" {
+		user.RememberHash = us.hmac.Hash(user.Remember)
+	}
+
+	return us.db.Save(user).Error
+
 }

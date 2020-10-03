@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"user-auth/model"
+	"user-auth/rand"
 )
 
 type jsonData struct {
@@ -41,7 +42,39 @@ func (u *Users) Create(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+	err = u.signIn(w, &user)
+
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
 	fmt.Fprintln(w, "Successfully Created the account")
+
+}
+
+func (u *Users) signIn(w http.ResponseWriter, user *model.User) error {
+
+	if user.Remember == "" {
+		token, err := rand.RememberToken()
+		if err != nil {
+			return err
+		}
+		user.Remember = token
+		err = u.us.Update(user)
+		if err != nil {
+			return err
+		}
+	}
+
+	cookie := http.Cookie{
+		Name:  "remember_token",
+		Value: user.Remember,
+	}
+
+	http.SetCookie(w, &cookie)
+
+	return nil
 
 }
 
