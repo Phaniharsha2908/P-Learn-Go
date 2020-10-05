@@ -2,6 +2,7 @@ package model
 
 import (
 	"errors"
+	"fmt"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -133,4 +134,19 @@ func (us *UserService) Update(user *User) error {
 
 	return us.db.Save(user).Error
 
+}
+
+func (us *UserService) ByRememberToken(token string) (*User, error) {
+
+	var user User
+
+	hash := us.hmac.Hash(token)
+	fmt.Println("********",hash)
+	db := us.db.Where("remember_hash=?", hash)
+	err := first(db, &user)
+
+	if err != nil {
+		return nil, err
+	}
+	return &user, nil
 }

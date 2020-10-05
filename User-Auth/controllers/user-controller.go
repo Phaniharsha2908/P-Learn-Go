@@ -108,3 +108,18 @@ func (u *Users) Login(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Logged in, success", user)
 
 }
+
+func (u *Users) Home(w http.ResponseWriter, r *http.Request) {
+
+	fmt.Fprintln(w, "This is home page")
+
+}
+
+func (u *Users) SayHello(w http.ResponseWriter, r *http.Request) {
+	cookie, _ := r.Cookie("remember_token")
+	user, _ := u.us.ByRememberToken(cookie.Value)
+
+
+	fmt.Fprintln(w, "Hello how are you", user.Email)
+
+}

@@ -18,6 +18,7 @@ func NewHMAC(key string) HMAC {
 }
 
 func (h HMAC) Hash(input string) string {
+	h.hmac.Reset()
 	h.hmac.Write([]byte(input))
 	b := h.hmac.Sum(nil)
 	return base64.URLEncoding.EncodeToString(b)

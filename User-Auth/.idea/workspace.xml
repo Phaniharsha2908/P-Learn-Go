@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df73f9af-8936-49f0-9002-4d9f94264d6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/user-controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user-controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash/hmac.go" beforeDir="false" afterPath="$PROJECT_DIR$/hash/hmac.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/user-model.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/user-model.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,25 +69,151 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="338" key="GridCell.Tab.0.bottom" timestamp="1601710548659">
+    <state width="1237" height="338" key="GridCell.Tab.0.bottom" timestamp="1601875345975">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="338" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601702095612" />
-    <state width="1237" height="338" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1601710548659" />
-    <state width="1237" height="338" key="GridCell.Tab.0.center" timestamp="1601710548642">
+    <state width="1237" height="338" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601875345975" />
+    <state width="1237" height="338" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1601710637331" />
+    <state width="1237" height="338" key="GridCell.Tab.0.center" timestamp="1601875345975">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="338" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601702095612" />
-    <state width="1237" height="338" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1601710548642" />
-    <state width="1237" height="338" key="GridCell.Tab.0.left" timestamp="1601710548642">
+    <state width="1237" height="338" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601875345975" />
+    <state width="1237" height="338" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1601710637331" />
+    <state width="1237" height="338" key="GridCell.Tab.0.left" timestamp="1601875345975">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="338" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601702095611" />
-    <state width="1237" height="338" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1601710548642" />
-    <state width="1237" height="338" key="GridCell.Tab.0.right" timestamp="1601710548659">
+    <state width="1237" height="338" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601875345975" />
+    <state width="1237" height="338" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1601710637331" />
+    <state width="1237" height="338" key="GridCell.Tab.0.right" timestamp="1601875345975">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="338" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601702095612" />
-    <state width="1237" height="338" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1601710548659" />
+    <state width="1237" height="338" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601875345975" />
+    <state width="1237" height="338" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1601710637331" />
+    <state width="1237" height="174" key="GridCell.Tab.1.bottom" timestamp="1601875063264">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="174" key="GridCell.Tab.1.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601875063264" />
+    <state width="1237" height="174" key="GridCell.Tab.1.center" timestamp="1601875063264">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="174" key="GridCell.Tab.1.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601875063264" />
+    <state width="1237" height="174" key="GridCell.Tab.1.left" timestamp="1601875063264">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="174" key="GridCell.Tab.1.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601875063264" />
+    <state width="1237" height="174" key="GridCell.Tab.1.right" timestamp="1601875063264">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="174" key="GridCell.Tab.1.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601875063264" />
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup" timestamp="1601873539339">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="303" y="9" width="672" height="678" key="search.everywhere.popup/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601873539339" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/user-model.go</url>
+          <line>138</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/user-model.go</url>
+          <line>142</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/user-model.go</url>
+          <line>144</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/user-model.go</url>
+          <line>145</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/user-model.go</url>
+          <line>147</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/user-model.go</url>
+          <line>148</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/model/user-model.go</url>
+          <line>150</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/middleware/middleware.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

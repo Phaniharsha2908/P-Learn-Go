@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"user-auth/controllers"
+	"user-auth/middleware"
 	"user-auth/model"
 )
 
@@ -25,12 +26,14 @@ func main() {
 	us.DestructiveReset()
 	//us.AutoMigrate()
 
-	userC:= controllers.NewUsers(us)
-
+	userC := controllers.NewUsers(us)
+	requireUserMW := middleware.RequireUser{UserService: us}
 	r := mux.NewRouter()
 
 	r.HandleFunc("/signup", userC.Create).Methods("POST")
-	r.HandleFunc("/login",userC.Login)
+	r.HandleFunc("/login", userC.Login)
+	r.HandleFunc("/home", userC.Home)
+	r.HandleFunc("/say", requireUserMW.ApplyFn(userC.SayHello))
 	err = http.ListenAndServe(":8080", r)
 
 	if err != nil {
