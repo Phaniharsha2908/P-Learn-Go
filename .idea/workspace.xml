@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1104d75c-e175-4d13-8347-fedd4f9f4e3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User-Auth/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User-Auth/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-Auth/controllers/user-controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/User-Auth/controllers/user-controller.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,42 +47,13 @@
       <recent name="D:\P-Learn-Go\002-Variables-basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build P-Learn-Go/0016-database">
-    <configuration name="go build P-Learn-Go/0015-Concurrency (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build P-Learn-Go/api">
+    <configuration name="go build P-Learn-Go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="P-Learn-Go" />
       <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/0015-Concurrency/channels.go" />
-      <package value="P-Learn-Go/0015-Concurrency" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build P-Learn-Go/0015-Concurrency (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="P-Learn-Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/0015-Concurrency/select.go" />
-      <package value="P-Learn-Go/0015-Concurrency" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/api.go" />
+      <package value="P-Learn-Go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -133,13 +104,32 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build P-Learn-Go/api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="P-Learn-Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/api/post.go" />
+      <package value="P-Learn-Go/api" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build P-Learn-Go/api" />
+        <item itemvalue="Go Build.go build P-Learn-Go" />
         <item itemvalue="Go Build.go build P-Learn-Go/0016-database" />
         <item itemvalue="Go Build.go build P-Learn-Go/0015-Concurrency (5)" />
         <item itemvalue="Go Build.go build P-Learn-Go/0015-Concurrency (4)" />
-        <item itemvalue="Go Build.go build P-Learn-Go/0015-Concurrency (3)" />
-        <item itemvalue="Go Build.go build P-Learn-Go/0015-Concurrency (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,28 +141,28 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="472" key="GridCell.Tab.0.bottom" timestamp="1601356634032">
+    <state width="1237" height="472" key="GridCell.Tab.0.bottom" timestamp="1601960220335">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="472" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601356634032" />
+    <state width="1237" height="472" key="GridCell.Tab.0.bottom/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601960220335" />
     <state width="1237" height="197" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1601032264586" />
     <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
-    <state width="1237" height="472" key="GridCell.Tab.0.center" timestamp="1601356634032">
+    <state width="1237" height="472" key="GridCell.Tab.0.center" timestamp="1601960220335">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="472" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601356634032" />
+    <state width="1237" height="472" key="GridCell.Tab.0.center/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601960220335" />
     <state width="1237" height="197" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1601032264586" />
     <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
-    <state width="1237" height="472" key="GridCell.Tab.0.left" timestamp="1601356634032">
+    <state width="1237" height="472" key="GridCell.Tab.0.left" timestamp="1601960220335">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="472" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601356634032" />
+    <state width="1237" height="472" key="GridCell.Tab.0.left/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601960220335" />
     <state width="1237" height="197" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1601032264570" />
     <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
-    <state width="1237" height="472" key="GridCell.Tab.0.right" timestamp="1601356634032">
+    <state width="1237" height="472" key="GridCell.Tab.0.right" timestamp="1601960220335">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="472" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601356634032" />
+    <state width="1237" height="472" key="GridCell.Tab.0.right/0.0.1280.688/1920.0.1366.738@0.0.1280.688" timestamp="1601960220335" />
     <state width="1237" height="197" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1601032264586" />
     <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1366.738@0.0.1280.689" timestamp="1598504555913" />
     <state width="1237" height="207" key="GridCell.Tab.1.bottom" timestamp="1599625878631">

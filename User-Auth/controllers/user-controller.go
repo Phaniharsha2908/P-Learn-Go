@@ -104,6 +104,12 @@ func (u *Users) Login(w http.ResponseWriter, r *http.Request) {
 		}
 		return
 	}
+	err = u.signIn(w, user)
+
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
 
 	fmt.Fprintln(w, "Logged in, success", user)
 
@@ -118,7 +124,6 @@ func (u *Users) Home(w http.ResponseWriter, r *http.Request) {
 func (u *Users) SayHello(w http.ResponseWriter, r *http.Request) {
 	cookie, _ := r.Cookie("remember_token")
 	user, _ := u.us.ByRememberToken(cookie.Value)
-
 
 	fmt.Fprintln(w, "Hello how are you", user.Email)
 
